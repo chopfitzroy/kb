@@ -14,6 +14,9 @@ const site = lume({}, { markdown });
 
 site.use(modifyUrls({
   fn: (url) => {
+    if (url.includes('http')) {
+      return url;
+    }
     // @NOTE
     // - Standardise URLs, could do this inline
     // - However this allows links to still work in the GitHub UI
