@@ -21,10 +21,10 @@ jobs:
       - name: Build site
         run: deno task build
 
-			# https://deno.com/blog/build-a-static-site-with-lume
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "chopfitzroy-kb"
+          # https://deno.com/blog/build-a-static-site-with-lume
           entrypoint: https://deno.land/std@0.167.0/http/file_server.ts
           root: ./_site
