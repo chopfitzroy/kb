@@ -20,8 +20,7 @@ site.use(modifyUrls({
     // - https://stackoverflow.com/questions/1818310/regular-expression-to-remove-a-files-extension
     const index = url.lastIndexOf('.');
     const clean = url.substr(0, index) || url;
-    const lower = clean.toLowerCase();
-    return lower;
+    return clean;
   } 
 }));
 
