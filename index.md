@@ -7,3 +7,4 @@ While this knowledgebase primarily consists of content related to programming I 
 ## Programming
 
 - [Editors](/Editors.md)
+- [References](/References.md)
