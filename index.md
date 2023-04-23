@@ -7,4 +7,6 @@ While this knowledgebase primarily consists of content related to programming I 
 ## Programming
 
 - [Editors](/Editors.md)
+- [Dotfiles](/Dotfiles.md)
 - [References](/References.md)
+- [Design Systems](/Design_System.md)
